@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Where To Watch NFL — Live & Next Games</title>
+  <meta name="description" content="See NFL games for this week (live & upcoming) with your local kickoff times and where to watch (TV & streaming)." />
+  
+  <!-- External CSS Framework -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+  <div id="app" class="app-container">
+    <!-- Header Section -->
+    <header class="app-header">
+      <div class="flex items-center gap-3 font-bold">
+        <div class="app-logo" aria-hidden="true"></div>
+        <div>
+          <div class="text-base tracking-tight">Where To Watch NFL</div>
+          <div class="text-slate-400 text-sm">{{ timezoneText }}</div>
+        </div>
+      </div>
+      <div class="text-slate-400 text-sm">{{ contextText }}</div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="app-main">
+      <!-- Section Header with Week Selector -->
+      <div class="flex flex-wrap items-center gap-3 mb-2">
+        <h2 class="m-0 text-xl font-semibold">{{ sectionTitle }}</h2>
+        <div class="text-slate-400 text-sm">{{ sectionSubtitle }}</div>
+        
+        <!-- Week Selection Dropdown -->
+        <div v-if="availableFutureWeeks.length" class="ml-auto flex items-center gap-2">
+          <label for="weekSelect" class="text-slate-400 text-sm">Jump to:</label>
+          <select 
+            id="weekSelect" 
+            :value="selectedWeek ?? ''" 
+            @change="onWeekChange" 
+            class="week-selector"
+          >
+            <option value="" disabled selected>Select week…</option>
+            <option v-for="w in availableFutureWeeks" :key="w" :value="w">
+              Week {{ w }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Loading and Error States -->
+      <div v-if="error" class="error-card text-slate-400 text-sm">
+        There was a problem loading the schedule. Please refresh to try again.
+      </div>
+      
+      <div v-else-if="loading" class="loading-card text-slate-400 text-sm">
+        Loading schedule…
+      </div>
+
+      <!-- Games Display -->
+      <template v-else>
+        <div v-if="displayGroups.length === 0" class="empty-card text-slate-400 text-sm">
+          No games found.
+        </div>
+        
+        <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <template v-for="group in displayGroups" :key="group.key">
+            <!-- Date Group Header -->
+            <div class="col-span-full flex items-center gap-2 text-slate-400 font-semibold mt-2">
+              <span class="date-indicator"></span>
+              <span>{{ group.label }}</span>
+            </div>
+
+            <!-- Game Cards -->
+            <div 
+              v-for="game in group.games" 
+              :key="game.gameId || (game.homeTeam.abbreviation + game.awayTeam.abbreviation + game.kickoffUtc)" 
+              class="game-card"
+            >
+              <!-- Team Matchup -->
+              <div class="grid [grid-template-columns:1fr_auto_1fr] items-center gap-2">
+                <!-- Away Team -->
+                <div class="flex items-center gap-2 min-w-0">
+                  <div class="team-logo" :title="game.awayTeam.fullName">
+                    <img 
+                      :src="teamLogoUrl(game.awayTeam.abbreviation)" 
+                      :alt="game.awayTeam.abbreviation + ' logo'" 
+                      @error="onLogoError($event)" 
+                    />
+                    <span class="fallback-text hidden">{{ game.awayTeam.abbreviation }}</span>
+                  </div>
+                  <div class="truncate">{{ game.awayTeam.fullName }}</div>
+                </div>
+                
+                <!-- VS Indicator -->
+                <div class="text-slate-400 font-bold text-center px-2">@</div>
+                
+                <!-- Home Team -->
+                <div class="flex items-center gap-2 min-w-0 justify-end">
+                  <div class="truncate text-right">{{ game.homeTeam.fullName }}</div>
+                  <div class="team-logo" :title="game.homeTeam.fullName">
+                    <img 
+                      :src="teamLogoUrl(game.homeTeam.abbreviation)" 
+                      :alt="game.homeTeam.abbreviation + ' logo'" 
+                      @error="onLogoError($event)" 
+                    />
+                    <span class="fallback-text hidden">{{ game.homeTeam.abbreviation }}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Game Time -->
+              <div class="text-slate-400 text-sm">
+                {{ fmtTimeOnly(kickoffDate(game)) }}
+              </div>
+
+              <!-- Providers -->
+              <div class="flex items-center gap-2 flex-wrap">
+                <template v-if="pickProviders(game).length === 0">
+                  <span class="text-slate-400 text-sm">Providers to be announced</span>
+                </template>
+                <template v-else>
+                  <a 
+                    v-for="provider in pickProviders(game)" 
+                    :key="(provider.code || provider.name || provider.domain) + (provider.domain || '')" 
+                    :href="provider.url && provider.url.startsWith('http') ? provider.url : ('https://' + provider.domain)" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    :title="provider.name || provider.domain" 
+                    :aria-label="provider.name || provider.domain" 
+                    class="provider-link"
+                  >
+                    <img 
+                      :src="faviconUrl(provider.domain)" 
+                      alt="" 
+                      aria-hidden="true" 
+                    />
+                    <span>{{ provider.name || provider.domain }}</span>
+                  </a>
+                </template>
+              </div>
+            </div>
+          </template>
+        </div>
+      </template>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer text-slate-400 text-sm">
+      Data times are provided in UTC and shown in your local timezone. 
+      Provider links go to official sites or apps. 
+      This site is unofficial and for convenience only.
+    </footer>
+  </div>
+
+  <!-- External Libraries -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  
+  <!-- Application Scripts -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
