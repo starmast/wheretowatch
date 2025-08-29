@@ -91,7 +91,10 @@
                     />
                     <span class="fallback-text hidden">{{ game.awayTeam.abbreviation }}</span>
                   </div>
-                  <div class="truncate">{{ game.awayTeam.fullName }}</div>
+                  <div class="min-w-0">
+                    <span class="md:hidden">{{ game.awayTeam.abbreviation }}</span>
+                    <span class="hidden md:inline">{{ game.awayTeam.fullName }}</span>
+                  </div>
                 </div>
                 
                 <!-- VS Indicator -->
@@ -99,7 +102,10 @@
                 
                 <!-- Home Team -->
                 <div class="flex items-center gap-2 min-w-0 justify-end">
-                  <div class="truncate text-right">{{ game.homeTeam.fullName }}</div>
+                  <div class="min-w-0 text-right">
+                    <span class="md:hidden">{{ game.homeTeam.abbreviation }}</span>
+                    <span class="hidden md:inline">{{ game.homeTeam.fullName }}</span>
+                  </div>
                   <div class="team-logo" :title="game.homeTeam.fullName">
                     <img 
                       :src="teamLogoUrl(game.homeTeam.abbreviation)" 
