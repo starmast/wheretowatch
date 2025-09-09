@@ -253,6 +253,16 @@ export function createNFLApp() {
           includeProviders: selectedProviders.value
         });
 
+      const toggleProvider = (code) => {
+        const arr = selectedProviders.value;
+        const idx = arr.indexOf(code);
+        if (idx === -1) {
+          arr.push(code);
+        } else {
+          arr.splice(idx, 1);
+        }
+      };
+
       // Event handlers
       const handleWeekChange = (event) => {
         const raw = event && event.target ? event.target.value : '';
@@ -345,9 +355,10 @@ export function createNFLApp() {
         displayGroups,
         isShowingThisWeek,
         availableFutureWeeks,
-        
+
         // Methods
         pickProviders,
+        toggleProvider,
         faviconUrl: getFaviconUrl,
         teamLogoUrl: getTeamLogoUrl,
         fmtTimeOnly: formatTimeOnly,

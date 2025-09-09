@@ -55,21 +55,16 @@
 
       <!-- Streaming Provider Filters -->
       <div class="flex flex-wrap items-center gap-2 mb-4">
-        <label for="providerSelect" class="text-slate-400 text-sm">Providers:</label>
-        <select
-          id="providerSelect"
-          v-model="selectedProviders"
-          multiple
-          class="week-selector"
+        <span class="text-slate-400 text-sm">Providers:</span>
+        <button
+          v-for="option in providerOptions"
+          :key="option.code"
+          type="button"
+          @click="toggleProvider(option.code)"
+          :class="['provider-filter-btn', selectedProviders.includes(option.code) ? 'active' : '']"
         >
-          <option
-            v-for="option in providerOptions"
-            :key="option.code"
-            :value="option.code"
-          >
-            {{ option.name || option.code }}
-          </option>
-        </select>
+          {{ option.name || option.code }}
+        </button>
       </div>
 
       <!-- Loading and Error States -->
