@@ -15,7 +15,7 @@ import {
 } from './utils.js';
 
 // Vue composition API
-const { createApp, computed, onMounted, ref } = Vue;
+const { createApp, computed, onMounted, onUnmounted, ref } = Vue;
 
 /**
  * Create and configure the Vue application
@@ -30,6 +30,7 @@ export function createNFLApp() {
       const now = ref(new Date());
       const timezone = ref(getUserTimezone());
       const selectedWeek = ref(null);
+      let nowInterval;
 
       // Computed properties for season timeline
       const currentWeek = computed(() => {
@@ -294,6 +295,15 @@ export function createNFLApp() {
       // Lifecycle
       onMounted(() => {
         loadSchedule();
+        nowInterval = setInterval(() => {
+          now.value = new Date();
+        }, 60_000);
+      });
+
+      onUnmounted(() => {
+        if (nowInterval) {
+          clearInterval(nowInterval);
+        }
       });
 
       // Public API for template

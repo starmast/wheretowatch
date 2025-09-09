@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Where To Watch NFL — Live & Next Games</title>
   <meta name="description" content="See NFL games for this week (live & upcoming) with your local kickoff times and where to watch (TV & streaming)." />
-  
+
+  <link rel="preconnect" href="https://static.www.nfl.com" crossorigin>
+  <link rel="preconnect" href="https://www.google.com" crossorigin>
+
   <!-- External CSS Framework -->
   <script src="https://cdn.tailwindcss.com"></script>
   
@@ -51,11 +54,11 @@
       </div>
 
       <!-- Loading and Error States -->
-      <div v-if="error" class="error-card text-slate-400 text-sm">
+      <div v-if="error" class="error-card text-slate-400 text-sm" role="alert">
         There was a problem loading the schedule. Please refresh to try again.
       </div>
-      
-      <div v-else-if="loading" class="loading-card text-slate-400 text-sm">
+
+      <div v-else-if="loading" class="loading-card text-slate-400 text-sm" role="status" aria-live="polite">
         Loading schedule…
       </div>
 
@@ -84,10 +87,12 @@
                 <!-- Away Team -->
                 <div class="flex items-center gap-2 min-w-0">
                   <div class="team-logo" :title="game.awayTeam.fullName">
-                    <img 
-                      :src="teamLogoUrl(game.awayTeam.abbreviation)" 
-                      :alt="game.awayTeam.abbreviation + ' logo'" 
-                      @error="onLogoError($event)" 
+                    <img
+                      :src="teamLogoUrl(game.awayTeam.abbreviation)"
+                      :alt="game.awayTeam.fullName + ' logo'"
+                      loading="lazy"
+                      decoding="async"
+                      @error="onLogoError($event)"
                     />
                     <span class="fallback-text hidden">{{ game.awayTeam.abbreviation }}</span>
                   </div>
@@ -107,10 +112,12 @@
                     <span class="hidden md:inline">{{ game.homeTeam.fullName }}</span>
                   </div>
                   <div class="team-logo" :title="game.homeTeam.fullName">
-                    <img 
-                      :src="teamLogoUrl(game.homeTeam.abbreviation)" 
-                      :alt="game.homeTeam.abbreviation + ' logo'" 
-                      @error="onLogoError($event)" 
+                    <img
+                      :src="teamLogoUrl(game.homeTeam.abbreviation)"
+                      :alt="game.homeTeam.fullName + ' logo'"
+                      loading="lazy"
+                      decoding="async"
+                      @error="onLogoError($event)"
                     />
                     <span class="fallback-text hidden">{{ game.homeTeam.abbreviation }}</span>
                   </div>
@@ -138,10 +145,12 @@
                     :aria-label="provider.name || provider.domain" 
                     class="provider-link"
                   >
-                    <img 
-                      :src="faviconUrl(provider.domain)" 
-                      alt="" 
-                      aria-hidden="true" 
+                    <img
+                      :src="faviconUrl(provider.domain)"
+                      alt=""
+                      aria-hidden="true"
+                      loading="lazy"
+                      decoding="async"
                     />
                     <span>{{ provider.name || provider.domain }}</span>
                   </a>
