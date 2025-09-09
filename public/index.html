@@ -55,22 +55,21 @@
 
       <!-- Streaming Provider Filters -->
       <div class="flex flex-wrap items-center gap-2 mb-4">
-        <label for="providerFilter" class="text-slate-400 text-sm">Providers:</label>
-        <input
-          id="providerFilter"
-          v-model="providerFilterText"
-          type="text"
-          placeholder="e.g., NFL+,Prime"
+        <label for="providerSelect" class="text-slate-400 text-sm">Providers:</label>
+        <select
+          id="providerSelect"
+          v-model="selectedProviders"
+          multiple
           class="week-selector"
-        />
-        <label for="regionFilter" class="text-slate-400 text-sm">Regions:</label>
-        <input
-          id="regionFilter"
-          v-model="regionFilterText"
-          type="text"
-          placeholder="e.g., US,CA"
-          class="week-selector"
-        />
+        >
+          <option
+            v-for="option in providerOptions"
+            :key="option.code"
+            :value="option.code"
+          >
+            {{ option.name || option.code }}
+          </option>
+        </select>
       </div>
 
       <!-- Loading and Error States -->

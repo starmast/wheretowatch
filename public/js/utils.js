@@ -10,12 +10,9 @@ export const LIVE_WINDOW_HOURS = 4;
  *
  * - includeProviders: Array of provider codes to allow. If empty, all
  *   streaming providers are shown.
- * - includeRegions: Array of region codes to allow (e.g., ['US']). If empty,
- *   region does not restrict providers.
  */
 export const STREAMING_FILTERS = {
-  includeProviders: [],
-  includeRegions: []
+  includeProviders: []
 };
 
 /**
@@ -92,7 +89,6 @@ export function handleLogoError(event) {
  * @param {Object} game - Game object with providers array
  * @param {Object} [filters=STREAMING_FILTERS] - Filter options
  * @param {string[]} [filters.includeProviders] - Allowed streaming provider codes
- * @param {string[]} [filters.includeRegions] - Allowed streaming regions
  * @returns {Array} Sorted and processed providers
  */
 export function processProviders(game, filters = STREAMING_FILTERS) {
@@ -122,14 +118,10 @@ export function processProviders(game, filters = STREAMING_FILTERS) {
     if (!valid) return false;
 
     if (p.kind === 'STREAMING') {
-      const { includeProviders, includeRegions } = filters || {};
+      const { includeProviders } = filters || {};
 
       if (Array.isArray(includeProviders) && includeProviders.length) {
         if (!includeProviders.includes(p.code)) return false;
-      }
-      if (Array.isArray(includeRegions) && includeRegions.length) {
-        const regions = Array.isArray(p.regions) ? p.regions : [];
-        if (!regions.some(r => includeRegions.includes(r))) return false;
       }
     }
     return true;

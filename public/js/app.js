@@ -30,22 +30,9 @@ export function createNFLApp() {
       const now = ref(new Date());
       const timezone = ref(getUserTimezone());
       const selectedWeek = ref(null);
-      const providerFilterText = ref('');
-      const regionFilterText = ref('');
+      const providerOptions = ref([]);
+      const selectedProviders = ref([]);
       let nowInterval;
-
-      const providerFilters = computed(() =>
-        providerFilterText.value
-          .split(',')
-          .map(s => s.trim())
-          .filter(Boolean)
-      );
-      const regionFilters = computed(() =>
-        regionFilterText.value
-          .split(',')
-          .map(s => s.trim())
-          .filter(Boolean)
-      );
 
       // Computed properties for season timeline
       const currentWeek = computed(() => {
@@ -263,8 +250,7 @@ export function createNFLApp() {
 
       const pickProviders = (game) =>
         processProviders(game, {
-          includeProviders: providerFilters.value,
-          includeRegions: regionFilters.value
+          includeProviders: selectedProviders.value
         });
 
       // Event handlers
@@ -305,6 +291,21 @@ export function createNFLApp() {
           
           scheduledGames.sort((a, b) => new Date(a.kickoffUtc) - new Date(b.kickoffUtc));
           schedule.value = scheduledGames;
+
+          // Build list of streaming providers for filter dropdown
+          const providerMap = new Map();
+          for (const game of scheduledGames) {
+            for (const p of Array.isArray(game.providers) ? game.providers : []) {
+              if (p.kind === 'STREAMING' && p.code && !providerMap.has(p.code)) {
+                providerMap.set(p.code, { code: p.code, name: p.name });
+              }
+            }
+          }
+          const options = Array.from(providerMap.values()).sort((a, b) =>
+            (a.name || a.code).localeCompare(b.name || b.code)
+          );
+          providerOptions.value = options;
+          selectedProviders.value = options.map(o => o.code);
         } catch (err) {
           console.error('Error loading schedule:', err);
           error.value = true;
@@ -333,8 +334,8 @@ export function createNFLApp() {
         loading,
         error,
         selectedWeek,
-        providerFilterText,
-        regionFilterText,
+        providerOptions,
+        selectedProviders,
         
         // Computed properties
         timezoneText,
