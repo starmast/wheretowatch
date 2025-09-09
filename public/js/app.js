@@ -30,7 +30,22 @@ export function createNFLApp() {
       const now = ref(new Date());
       const timezone = ref(getUserTimezone());
       const selectedWeek = ref(null);
+      const providerFilterText = ref('');
+      const regionFilterText = ref('');
       let nowInterval;
+
+      const providerFilters = computed(() =>
+        providerFilterText.value
+          .split(',')
+          .map(s => s.trim())
+          .filter(Boolean)
+      );
+      const regionFilters = computed(() =>
+        regionFilterText.value
+          .split(',')
+          .map(s => s.trim())
+          .filter(Boolean)
+      );
 
       // Computed properties for season timeline
       const currentWeek = computed(() => {
@@ -246,6 +261,12 @@ export function createNFLApp() {
         return groupGamesByDate(filteredGames.value);
       });
 
+      const pickProviders = (game) =>
+        processProviders(game, {
+          includeProviders: providerFilters.value,
+          includeRegions: regionFilters.value
+        });
+
       // Event handlers
       const handleWeekChange = (event) => {
         const raw = event && event.target ? event.target.value : '';
@@ -312,6 +333,8 @@ export function createNFLApp() {
         loading,
         error,
         selectedWeek,
+        providerFilterText,
+        regionFilterText,
         
         // Computed properties
         timezoneText,
@@ -323,7 +346,7 @@ export function createNFLApp() {
         availableFutureWeeks,
         
         // Methods
-        pickProviders: processProviders,
+        pickProviders,
         faviconUrl: getFaviconUrl,
         teamLogoUrl: getTeamLogoUrl,
         fmtTimeOnly: formatTimeOnly,

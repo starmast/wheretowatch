@@ -53,6 +53,26 @@
         </div>
       </div>
 
+      <!-- Streaming Provider Filters -->
+      <div class="flex flex-wrap items-center gap-2 mb-4">
+        <label for="providerFilter" class="text-slate-400 text-sm">Providers:</label>
+        <input
+          id="providerFilter"
+          v-model="providerFilterText"
+          type="text"
+          placeholder="e.g., NFL+,Prime"
+          class="week-selector"
+        />
+        <label for="regionFilter" class="text-slate-400 text-sm">Regions:</label>
+        <input
+          id="regionFilter"
+          v-model="regionFilterText"
+          type="text"
+          placeholder="e.g., US,CA"
+          class="week-selector"
+        />
+      </div>
+
       <!-- Loading and Error States -->
       <div v-if="error" class="error-card text-slate-400 text-sm" role="alert">
         There was a problem loading the schedule. Please refresh to try again.

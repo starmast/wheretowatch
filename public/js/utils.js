@@ -6,6 +6,19 @@
 export const LIVE_WINDOW_HOURS = 4;
 
 /**
+ * Configuration for filtering streaming providers.
+ *
+ * - includeProviders: Array of provider codes to allow. If empty, all
+ *   streaming providers are shown.
+ * - includeRegions: Array of region codes to allow (e.g., ['US']). If empty,
+ *   region does not restrict providers.
+ */
+export const STREAMING_FILTERS = {
+  includeProviders: [],
+  includeRegions: []
+};
+
+/**
  * Format a date to show only time with timezone
  * @param {Date} dt - The date to format
  * @returns {string} Formatted time string
@@ -77,18 +90,21 @@ export function handleLogoError(event) {
 /**
  * Process and sort providers for a game
  * @param {Object} game - Game object with providers array
+ * @param {Object} [filters=STREAMING_FILTERS] - Filter options
+ * @param {string[]} [filters.includeProviders] - Allowed streaming provider codes
+ * @param {string[]} [filters.includeRegions] - Allowed streaming regions
  * @returns {Array} Sorted and processed providers
  */
-export function processProviders(game) {
+export function processProviders(game, filters = STREAMING_FILTERS) {
   const arr = Array.isArray(game.providers) ? game.providers.slice() : [];
   const order = { TV: 0, STREAMING: 1, RADIO: 2 };
-  
+
   // Sort by type and then by name
-  arr.sort((a, b) => 
+  arr.sort((a, b) =>
     (order[a.kind] ?? 99) - (order[b.kind] ?? 99) ||
     (a.name || '').localeCompare(b.name || '')
   );
-  
+
   // Extract domain from URL if not provided
   for (const provider of arr) {
     if (!provider.domain && provider.url) {
@@ -99,9 +115,27 @@ export function processProviders(game) {
       }
     }
   }
-  
-  // Filter to only include providers with valid URLs or domains
-  return arr.filter(p => (p.url && p.url.startsWith('http')) || p.domain);
+
+  // Apply streaming filters
+  const filtered = arr.filter(p => {
+    const valid = (p.url && p.url.startsWith('http')) || p.domain;
+    if (!valid) return false;
+
+    if (p.kind === 'STREAMING') {
+      const { includeProviders, includeRegions } = filters || {};
+
+      if (Array.isArray(includeProviders) && includeProviders.length) {
+        if (!includeProviders.includes(p.code)) return false;
+      }
+      if (Array.isArray(includeRegions) && includeRegions.length) {
+        const regions = Array.isArray(p.regions) ? p.regions : [];
+        if (!regions.some(r => includeRegions.includes(r))) return false;
+      }
+    }
+    return true;
+  });
+
+  return filtered;
 }
 
 /**
