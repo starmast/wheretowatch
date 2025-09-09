@@ -1137,7 +1137,7 @@
     ]
   },
   {
-    "gameId": "2025-W02-BAL-CLE-NFL_PLUS",
+    "gameId": "2025-W02-BAL-CLE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1174,11 +1174,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-CIN-JAX-NFL_PLUS",
+    "gameId": "2025-W02-CIN-JAX-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1215,11 +1226,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-DAL-NYG-NFL_PLUS",
+    "gameId": "2025-W02-DAL-NYG-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1256,11 +1278,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-DET-CHI-NFL_PLUS",
+    "gameId": "2025-W02-DET-CHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1297,11 +1330,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-MIA-NE-NFL_PLUS",
+    "gameId": "2025-W02-MIA-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1338,11 +1382,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-NO-SF-NFL_PLUS",
+    "gameId": "2025-W02-NO-SF-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1379,11 +1434,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-NYJ-BUF-NFL_PLUS",
+    "gameId": "2025-W02-NYJ-BUF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1420,11 +1486,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-PIT-SEA-NFL_PLUS",
+    "gameId": "2025-W02-PIT-SEA-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1461,11 +1538,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-TEN-LAR-NFL_PLUS",
+    "gameId": "2025-W02-TEN-LAR-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1502,11 +1590,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-ARI-CAR-NFL_PLUS",
+    "gameId": "2025-W02-ARI-CAR-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1543,11 +1642,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-IND-DEN-NFL_PLUS",
+    "gameId": "2025-W02-IND-DEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1584,11 +1694,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W02-KC-PHI-NFL_PLUS",
+    "gameId": "2025-W02-KC-PHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 2,
@@ -1621,6 +1742,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -1925,7 +2057,7 @@
     ]
   },
   {
-    "gameId": "2025-W03-CAR-ATL-NFL_PLUS",
+    "gameId": "2025-W03-CAR-ATL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -1962,11 +2094,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-CLE-GB-NFL_PLUS",
+    "gameId": "2025-W03-CLE-GB-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2003,11 +2146,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-JAX-HOU-NFL_PLUS",
+    "gameId": "2025-W03-JAX-HOU-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2044,11 +2198,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-MIN-CIN-NFL_PLUS",
+    "gameId": "2025-W03-MIN-CIN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2085,11 +2250,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-NE-PIT-NFL_PLUS",
+    "gameId": "2025-W03-NE-PIT-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2126,11 +2302,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-PHI-LAR-NFL_PLUS",
+    "gameId": "2025-W03-PHI-LAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2167,11 +2354,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-TB-NYJ-NFL_PLUS",
+    "gameId": "2025-W03-TB-NYJ-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2208,11 +2406,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-TEN-IND-NFL_PLUS",
+    "gameId": "2025-W03-TEN-IND-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2249,11 +2458,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-WAS-LV-NFL_PLUS",
+    "gameId": "2025-W03-WAS-LV-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2290,11 +2510,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-LAC-DEN-NFL_PLUS",
+    "gameId": "2025-W03-LAC-DEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2331,11 +2562,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-SEA-NO-NFL_PLUS",
+    "gameId": "2025-W03-SEA-NO-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2372,11 +2614,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-CHI-DAL-NFL_PLUS",
+    "gameId": "2025-W03-CHI-DAL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2413,11 +2666,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W03-SF-ARI-NFL_PLUS",
+    "gameId": "2025-W03-SF-ARI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 3,
@@ -2450,6 +2714,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -2754,7 +3029,7 @@
     ]
   },
   {
-    "gameId": "2025-W04-ATL-WAS-NFL_PLUS",
+    "gameId": "2025-W04-ATL-WAS-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -2791,11 +3066,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-BUF-NO-NFL_PLUS",
+    "gameId": "2025-W04-BUF-NO-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -2832,11 +3118,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-DET-CLE-NFL_PLUS",
+    "gameId": "2025-W04-DET-CLE-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -2873,11 +3170,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-HOU-TEN-NFL_PLUS",
+    "gameId": "2025-W04-HOU-TEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -2914,11 +3222,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-NE-CAR-NFL_PLUS",
+    "gameId": "2025-W04-NE-CAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -2955,11 +3274,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-NYG-LAC-NFL_PLUS",
+    "gameId": "2025-W04-NYG-LAC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -2996,11 +3326,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-TB-PHI-NFL_PLUS",
+    "gameId": "2025-W04-TB-PHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -3037,11 +3378,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-LAR-IND-NFL_PLUS",
+    "gameId": "2025-W04-LAR-IND-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -3078,11 +3430,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-SF-JAX-NFL_PLUS",
+    "gameId": "2025-W04-SF-JAX-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -3119,11 +3482,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-KC-BAL-NFL_PLUS",
+    "gameId": "2025-W04-KC-BAL-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -3160,11 +3534,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W04-LV-CHI-NFL_PLUS",
+    "gameId": "2025-W04-LV-CHI-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 4,
@@ -3197,6 +3582,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -3556,7 +3952,7 @@
     ]
   },
   {
-    "gameId": "2025-W05-BAL-HOU-NFL_PLUS",
+    "gameId": "2025-W05-BAL-HOU-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3593,11 +3989,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-CAR-MIA-NFL_PLUS",
+    "gameId": "2025-W05-CAR-MIA-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3634,11 +4041,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-IND-LV-NFL_PLUS",
+    "gameId": "2025-W05-IND-LV-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3675,11 +4093,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-NO-NYG-NFL_PLUS",
+    "gameId": "2025-W05-NO-NYG-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3716,11 +4145,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-NYJ-DAL-NFL_PLUS",
+    "gameId": "2025-W05-NYJ-DAL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3757,11 +4197,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-PHI-DEN-NFL_PLUS",
+    "gameId": "2025-W05-PHI-DEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3798,11 +4249,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-ARI-TEN-NFL_PLUS",
+    "gameId": "2025-W05-ARI-TEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3839,11 +4301,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-SEA-TB-NFL_PLUS",
+    "gameId": "2025-W05-SEA-TB-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3880,11 +4353,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-CIN-DET-NFL_PLUS",
+    "gameId": "2025-W05-CIN-DET-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3921,11 +4405,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W05-LAC-WAS-NFL_PLUS",
+    "gameId": "2025-W05-LAC-WAS-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 5,
@@ -3958,6 +4453,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -4262,7 +4768,7 @@
     ]
   },
   {
-    "gameId": "2025-W06-BAL-LAR-NFL_PLUS",
+    "gameId": "2025-W06-BAL-LAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4299,11 +4805,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-CAR-DAL-NFL_PLUS",
+    "gameId": "2025-W06-CAR-DAL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4340,11 +4857,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-IND-ARI-NFL_PLUS",
+    "gameId": "2025-W06-IND-ARI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4381,11 +4909,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-JAX-SEA-NFL_PLUS",
+    "gameId": "2025-W06-JAX-SEA-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4422,11 +4961,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-MIA-LAC-NFL_PLUS",
+    "gameId": "2025-W06-MIA-LAC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4463,11 +5013,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-PIT-CLE-NFL_PLUS",
+    "gameId": "2025-W06-PIT-CLE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4504,11 +5065,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-TB-SF-NFL_PLUS",
+    "gameId": "2025-W06-TB-SF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4545,11 +5117,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-LV-TEN-NFL_PLUS",
+    "gameId": "2025-W06-LV-TEN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4586,11 +5169,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-GB-CIN-NFL_PLUS",
+    "gameId": "2025-W06-GB-CIN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4627,11 +5221,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W06-NO-NE-NFL_PLUS",
+    "gameId": "2025-W06-NO-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 6,
@@ -4664,6 +5269,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -5023,7 +5639,7 @@
     ]
   },
   {
-    "gameId": "2025-W07-CHI-NO-NFL_PLUS",
+    "gameId": "2025-W07-CHI-NO-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5060,11 +5676,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-CLE-MIA-NFL_PLUS",
+    "gameId": "2025-W07-CLE-MIA-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5101,11 +5728,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-KC-LV-NFL_PLUS",
+    "gameId": "2025-W07-KC-LV-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5142,11 +5780,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-MIN-PHI-NFL_PLUS",
+    "gameId": "2025-W07-MIN-PHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5183,11 +5832,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-NYJ-CAR-NFL_PLUS",
+    "gameId": "2025-W07-NYJ-CAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5224,11 +5884,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-TEN-NE-NFL_PLUS",
+    "gameId": "2025-W07-TEN-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5265,11 +5936,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-DEN-NYG-NFL_PLUS",
+    "gameId": "2025-W07-DEN-NYG-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5306,11 +5988,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-LAC-IND-NFL_PLUS",
+    "gameId": "2025-W07-LAC-IND-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5347,11 +6040,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-ARI-GB-NFL_PLUS",
+    "gameId": "2025-W07-ARI-GB-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5388,11 +6092,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W07-DAL-WAS-NFL_PLUS",
+    "gameId": "2025-W07-DAL-WAS-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 7,
@@ -5425,6 +6140,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -5729,7 +6455,7 @@
     ]
   },
   {
-    "gameId": "2025-W08-ATL-MIA-NFL_PLUS",
+    "gameId": "2025-W08-ATL-MIA-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -5766,11 +6492,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-BAL-CHI-NFL_PLUS",
+    "gameId": "2025-W08-BAL-CHI-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -5807,11 +6544,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-CAR-BUF-NFL_PLUS",
+    "gameId": "2025-W08-CAR-BUF-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -5848,11 +6596,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-CIN-NYJ-NFL_PLUS",
+    "gameId": "2025-W08-CIN-NYJ-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -5889,11 +6648,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-HOU-SF-NFL_PLUS",
+    "gameId": "2025-W08-HOU-SF-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -5930,11 +6700,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-NE-CLE-NFL_PLUS",
+    "gameId": "2025-W08-NE-CLE-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -5971,11 +6752,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-PHI-NYG-NFL_PLUS",
+    "gameId": "2025-W08-PHI-NYG-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -6012,11 +6804,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-NO-TB-NFL_PLUS",
+    "gameId": "2025-W08-NO-TB-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -6053,11 +6856,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-DEN-DAL-NFL_PLUS",
+    "gameId": "2025-W08-DEN-DAL-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -6094,11 +6908,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W08-IND-TEN-NFL_PLUS",
+    "gameId": "2025-W08-IND-TEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 8,
@@ -6131,6 +6956,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -6367,7 +7203,7 @@
     ]
   },
   {
-    "gameId": "2025-W09-CIN-CHI-NFL_PLUS",
+    "gameId": "2025-W09-CIN-CHI-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6404,11 +7240,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-DET-MIN-NFL_PLUS",
+    "gameId": "2025-W09-DET-MIN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6445,11 +7292,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-GB-CAR-NFL_PLUS",
+    "gameId": "2025-W09-GB-CAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6486,11 +7344,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-HOU-DEN-NFL_PLUS",
+    "gameId": "2025-W09-HOU-DEN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6527,11 +7396,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-NE-ATL-NFL_PLUS",
+    "gameId": "2025-W09-NE-ATL-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6568,11 +7448,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-NYG-SF-NFL_PLUS",
+    "gameId": "2025-W09-NYG-SF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6609,11 +7500,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-PIT-IND-NFL_PLUS",
+    "gameId": "2025-W09-PIT-IND-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6650,11 +7552,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-TEN-LAC-NFL_PLUS",
+    "gameId": "2025-W09-TEN-LAC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6691,11 +7604,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-LAR-NO-NFL_PLUS",
+    "gameId": "2025-W09-LAR-NO-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6732,11 +7656,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-LV-JAX-NFL_PLUS",
+    "gameId": "2025-W09-LV-JAX-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6773,11 +7708,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W09-BUF-KC-NFL_PLUS",
+    "gameId": "2025-W09-BUF-KC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 9,
@@ -6810,6 +7756,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -7114,7 +8071,7 @@
     ]
   },
   {
-    "gameId": "2025-W10-CAR-NO-NFL_PLUS",
+    "gameId": "2025-W10-CAR-NO-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7151,11 +8108,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-CHI-NYG-NFL_PLUS",
+    "gameId": "2025-W10-CHI-NYG-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7192,11 +8160,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-HOU-JAX-NFL_PLUS",
+    "gameId": "2025-W10-HOU-JAX-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7233,11 +8212,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-MIA-BUF-NFL_PLUS",
+    "gameId": "2025-W10-MIA-BUF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7274,11 +8264,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-MIN-BAL-NFL_PLUS",
+    "gameId": "2025-W10-MIN-BAL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7315,11 +8316,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-NYJ-CLE-NFL_PLUS",
+    "gameId": "2025-W10-NYJ-CLE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7356,11 +8368,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-TB-NE-NFL_PLUS",
+    "gameId": "2025-W10-TB-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7397,11 +8420,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-SEA-ARI-NFL_PLUS",
+    "gameId": "2025-W10-SEA-ARI-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7438,11 +8472,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-SF-LAR-NFL_PLUS",
+    "gameId": "2025-W10-SF-LAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7479,11 +8524,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W10-WAS-DET-NFL_PLUS",
+    "gameId": "2025-W10-WAS-DET-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 10,
@@ -7516,6 +8572,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -7820,7 +8887,7 @@
     ]
   },
   {
-    "gameId": "2025-W11-ATL-CAR-NFL_PLUS",
+    "gameId": "2025-W11-ATL-CAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -7857,11 +8924,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-BUF-TB-NFL_PLUS",
+    "gameId": "2025-W11-BUF-TB-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -7898,11 +8976,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-JAX-LAC-NFL_PLUS",
+    "gameId": "2025-W11-JAX-LAC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -7939,11 +9028,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-MIN-CHI-NFL_PLUS",
+    "gameId": "2025-W11-MIN-CHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -7980,11 +9080,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-NYG-GB-NFL_PLUS",
+    "gameId": "2025-W11-NYG-GB-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8021,11 +9132,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-PIT-CIN-NFL_PLUS",
+    "gameId": "2025-W11-PIT-CIN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8062,11 +9184,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-TEN-HOU-NFL_PLUS",
+    "gameId": "2025-W11-TEN-HOU-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8103,11 +9236,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-ARI-SF-NFL_PLUS",
+    "gameId": "2025-W11-ARI-SF-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8144,11 +9288,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-LAR-SEA-NFL_PLUS",
+    "gameId": "2025-W11-LAR-SEA-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8185,11 +9340,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-CLE-BAL-NFL_PLUS",
+    "gameId": "2025-W11-CLE-BAL-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8226,11 +9392,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W11-DEN-KC-NFL_PLUS",
+    "gameId": "2025-W11-DEN-KC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 11,
@@ -8263,6 +9440,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -8499,7 +9687,7 @@
     ]
   },
   {
-    "gameId": "2025-W12-BAL-NYJ-NFL_PLUS",
+    "gameId": "2025-W12-BAL-NYJ-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8536,11 +9724,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-CHI-PIT-NFL_PLUS",
+    "gameId": "2025-W12-CHI-PIT-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8577,11 +9776,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-CIN-NE-NFL_PLUS",
+    "gameId": "2025-W12-CIN-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8618,11 +9828,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-DET-NYG-NFL_PLUS",
+    "gameId": "2025-W12-DET-NYG-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8659,11 +9880,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-GB-MIN-NFL_PLUS",
+    "gameId": "2025-W12-GB-MIN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8700,11 +9932,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-KC-IND-NFL_PLUS",
+    "gameId": "2025-W12-KC-IND-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8741,11 +9984,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-TEN-SEA-NFL_PLUS",
+    "gameId": "2025-W12-TEN-SEA-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8782,11 +10036,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-ARI-JAX-NFL_PLUS",
+    "gameId": "2025-W12-ARI-JAX-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8823,11 +10088,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-LV-CLE-NFL_PLUS",
+    "gameId": "2025-W12-LV-CLE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8864,11 +10140,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-DAL-PHI-NFL_PLUS",
+    "gameId": "2025-W12-DAL-PHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8905,11 +10192,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W12-NO-ATL-NFL_PLUS",
+    "gameId": "2025-W12-NO-ATL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 12,
@@ -8942,6 +10240,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -9395,7 +10704,7 @@
     ]
   },
   {
-    "gameId": "2025-W13-CAR-LAR-NFL_PLUS",
+    "gameId": "2025-W13-CAR-LAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9432,11 +10741,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-CLE-SF-NFL_PLUS",
+    "gameId": "2025-W13-CLE-SF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9473,11 +10793,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-IND-HOU-NFL_PLUS",
+    "gameId": "2025-W13-IND-HOU-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9514,11 +10845,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-MIA-NO-NFL_PLUS",
+    "gameId": "2025-W13-MIA-NO-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9555,11 +10897,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-NYJ-ATL-NFL_PLUS",
+    "gameId": "2025-W13-NYJ-ATL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9596,11 +10949,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-TB-ARI-NFL_PLUS",
+    "gameId": "2025-W13-TB-ARI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9637,11 +11001,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-TEN-JAX-NFL_PLUS",
+    "gameId": "2025-W13-TEN-JAX-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9678,11 +11053,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-SEA-MIN-NFL_PLUS",
+    "gameId": "2025-W13-SEA-MIN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9719,11 +11105,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-LAC-LV-NFL_PLUS",
+    "gameId": "2025-W13-LAC-LV-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9760,11 +11157,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W13-PIT-BUF-NFL_PLUS",
+    "gameId": "2025-W13-PIT-BUF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 13,
@@ -9797,6 +11205,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -10020,7 +11439,7 @@
     ]
   },
   {
-    "gameId": "2025-W14-ATL-SEA-NFL_PLUS",
+    "gameId": "2025-W14-ATL-SEA-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10057,11 +11476,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-BAL-PIT-NFL_PLUS",
+    "gameId": "2025-W14-BAL-PIT-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10098,11 +11528,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-CLE-TEN-NFL_PLUS",
+    "gameId": "2025-W14-CLE-TEN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10139,11 +11580,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-GB-CHI-NFL_PLUS",
+    "gameId": "2025-W14-GB-CHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10180,11 +11632,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-JAX-IND-NFL_PLUS",
+    "gameId": "2025-W14-JAX-IND-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10221,11 +11684,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-MIN-WAS-NFL_PLUS",
+    "gameId": "2025-W14-MIN-WAS-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10262,11 +11736,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-NYJ-MIA-NFL_PLUS",
+    "gameId": "2025-W14-NYJ-MIA-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10303,11 +11788,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-TB-NO-NFL_PLUS",
+    "gameId": "2025-W14-TB-NO-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10344,11 +11840,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-LV-DEN-NFL_PLUS",
+    "gameId": "2025-W14-LV-DEN-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10385,11 +11892,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-ARI-LAR-NFL_PLUS",
+    "gameId": "2025-W14-ARI-LAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10426,11 +11944,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W14-BUF-CIN-NFL_PLUS",
+    "gameId": "2025-W14-BUF-CIN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 14,
@@ -10463,6 +11992,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -10699,7 +12239,7 @@
     ]
   },
   {
-    "gameId": "2025-W15-CHI-CLE-NFL_PLUS",
+    "gameId": "2025-W15-CHI-CLE-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10736,11 +12276,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-CIN-BAL-NFL_PLUS",
+    "gameId": "2025-W15-CIN-BAL-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10777,11 +12328,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-HOU-ARI-NFL_PLUS",
+    "gameId": "2025-W15-HOU-ARI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10818,11 +12380,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-JAX-NYJ-NFL_PLUS",
+    "gameId": "2025-W15-JAX-NYJ-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10859,11 +12432,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-KC-LAC-NFL_PLUS",
+    "gameId": "2025-W15-KC-LAC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10900,11 +12484,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-NE-BUF-NFL_PLUS",
+    "gameId": "2025-W15-NE-BUF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10941,11 +12536,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-NYG-WAS-NFL_PLUS",
+    "gameId": "2025-W15-NYG-WAS-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -10982,11 +12588,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-PHI-LV-NFL_PLUS",
+    "gameId": "2025-W15-PHI-LV-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -11023,11 +12640,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-DEN-GB-NFL_PLUS",
+    "gameId": "2025-W15-DEN-GB-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -11064,11 +12692,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-LAR-DET-NFL_PLUS",
+    "gameId": "2025-W15-LAR-DET-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -11105,11 +12744,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-NO-CAR-NFL_PLUS",
+    "gameId": "2025-W15-NO-CAR-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -11146,11 +12796,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-SEA-IND-NFL_PLUS",
+    "gameId": "2025-W15-SEA-IND-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -11187,11 +12848,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W15-SF-TEN-NFL_PLUS",
+    "gameId": "2025-W15-SF-TEN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 15,
@@ -11224,6 +12896,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
@@ -11447,7 +13130,7 @@
     ]
   },
   {
-    "gameId": "2025-W16-BAL-NE-NFL_PLUS",
+    "gameId": "2025-W16-BAL-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11484,11 +13167,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-CAR-TB-NFL_PLUS",
+    "gameId": "2025-W16-CAR-TB-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11525,11 +13219,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-CLE-BUF-NFL_PLUS",
+    "gameId": "2025-W16-CLE-BUF-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11566,11 +13271,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-DAL-LAC-NFL_PLUS",
+    "gameId": "2025-W16-DAL-LAC-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11607,11 +13323,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-NO-NYJ-NFL_PLUS",
+    "gameId": "2025-W16-NO-NYJ-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11648,11 +13375,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-NYG-MIN-NFL_PLUS",
+    "gameId": "2025-W16-NYG-MIN-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11689,11 +13427,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-TEN-KC-NFL_PLUS",
+    "gameId": "2025-W16-TEN-KC-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11730,11 +13479,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-ARI-ATL-NFL_PLUS",
+    "gameId": "2025-W16-ARI-ATL-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11771,11 +13531,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-DEN-JAX-NFL_PLUS",
+    "gameId": "2025-W16-DEN-JAX-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11812,11 +13583,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-DET-PIT-NFL_PLUS",
+    "gameId": "2025-W16-DET-PIT-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11853,11 +13635,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W16-HOU-LV-NFL_PLUS",
+    "gameId": "2025-W16-HOU-LV-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 16,
@@ -11890,6 +13683,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
         "regions": [
           "US"
         ],
@@ -12385,7 +14189,7 @@
     ]
   },
   {
-    "gameId": "2025-W17-CLE-PIT-NFL_PLUS",
+    "gameId": "2025-W17-CLE-PIT-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 17,
@@ -12422,11 +14226,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W17-IND-JAX-NFL_PLUS",
+    "gameId": "2025-W17-IND-JAX-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 17,
@@ -12463,11 +14278,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W17-MIA-TB-NFL_PLUS",
+    "gameId": "2025-W17-MIA-TB-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 17,
@@ -12504,11 +14330,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W17-NYJ-NE-NFL_PLUS",
+    "gameId": "2025-W17-NYJ-NE-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 17,
@@ -12545,11 +14382,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W17-TEN-NO-NFL_PLUS",
+    "gameId": "2025-W17-TEN-NO-CBS",
     "season": 2025,
     "seasonType": "REG",
     "week": 17,
@@ -12586,11 +14434,22 @@
           "US"
         ],
         "requirements": []
+      },
+      {
+        "code": "CBS",
+        "name": "CBS",
+        "kind": "TV",
+        "url": "https://www.cbssports.com/nfl/",
+        "domain": "cbssports.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
       }
     ]
   },
   {
-    "gameId": "2025-W17-BUF-PHI-NFL_PLUS",
+    "gameId": "2025-W17-BUF-PHI-FOX",
     "season": 2025,
     "seasonType": "REG",
     "week": 17,
@@ -12623,6 +14482,17 @@
         "kind": "RADIO",
         "url": "https://www.siriusxm.com/sports/nfl",
         "domain": "siriusxm.com",
+        "regions": [
+          "US"
+        ],
+        "requirements": []
+      },
+      {
+        "code": "FOX",
+        "name": "FOX",
+        "kind": "TV",
+        "url": "https://www.foxsports.com/nfl",
+        "domain": "foxsports.com",
         "regions": [
           "US"
         ],
